@@ -1,6 +1,6 @@
 /* eslint-disable no-new-func */
 (() => {
-  const MENU_URL = "../menu-data.js";
+  const MENU_URL = "../js/menu-data.js";
   const CART_KEY = "bigbrasa_cart_v1";
 
   const $ = (sel, root = document) => root.querySelector(sel);
