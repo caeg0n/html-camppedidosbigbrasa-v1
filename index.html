@@ -11,34 +11,50 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
   <meta property="og:locale" content="pt_BR" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Big Brasa" />
-  <meta property="og:title" content="Big Brasa | Cardápio" />
-  <meta property="og:description"
-    content="Cardápio oficial do Big Brasa. Veja nossos hambúrgueres, pastéis, porções e mais." />
-  <meta property="og:url" content="https://caeg0n.github.io/react-camppedidosbigbrasa-v1/" />
-  <meta property="og:image" content="https://caeg0n.github.io/react-camppedidosbigbrasa-v1/cardapio.jpeg" />
-  <meta property="og:image:width" content="1639" />
-  <meta property="og:image:height" content="1639" />
-  <meta property="og:image:alt" content="Big Brasa" />
+  <!doctype html>
+  <html lang="pt-BR">
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Big Brasa | Cardápio" />
-  <meta name="twitter:description"
-    content="Cardápio oficial do Big Brasa. Veja nossos hambúrgueres, pastéis, porções e mais." />
-  <meta name="twitter:image" content="https://caeg0n.github.io/react-camppedidosbigbrasa-v1/cardapio.jpeg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Brasa | Cardápio</title>
+    <meta name="description"
+      content="Cardápio oficial da hamburgueria Big Brasa - Hamburguers, Hamburguers Duplo, Batata Frita, Pastel e Bebidas." />
+    <link rel="canonical" href="https://caeg0n.github.io/react-camppedidosbigbrasa-v1/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Big Brasa" />
+    <meta property="og:title" content="Big Brasa | Cardápio" />
+    <meta property="og:description"
+      content="Cardápio oficial do Big Brasa. Veja nossos hambúrgueres, pastéis, porções e mais." />
+    <meta property="og:url" content="https://caeg0n.github.io/react-camppedidosbigbrasa-v1/" />
+    <meta property="og:image"
+      content="https://caeg0n.github.io/react-camppedidosbigbrasa-v1/assets/docs/cardapio.jpeg" />
+    <meta property="og:image:width" content="1639" />
+    <meta property="og:image:height" content="1639" />
+    <meta property="og:image:alt" content="Big Brasa" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Big Brasa | Cardápio" />
+    <meta name="twitter:description"
+      content="Cardápio oficial do Big Brasa. Veja nossos hambúrgueres, pastéis, porções e mais." />
+    <meta name="twitter:image"
+      content="https://caeg0n.github.io/react-camppedidosbigbrasa-v1/assets/docs/cardapio.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
 <body>
   <div class="bg-glow bg-glow-left"></div>
   <div class="bg-glow bg-glow-right"></div>
 
   <header class="hero reveal">
-    <img class="brand-text" src="logo2.png" alt="Big Brasa Hamburgueria Logo" />
+    <img class="brand-text" src="assets/img/logo2.png" alt="Big Brasa Hamburgueria Logo" />
     <div class="hero-copy">
       <p class="kicker">Cardápio Digital</p>
       <h2>HAMBURGUERIA ARTESANAL</h2>
@@ -47,51 +63,7 @@
       </p>
     </div>
     <div class="hero-delivery">
-      <img class="float-logo-right float-anim-fx" src="logo2.png" aria-hidden="true" />
+      <img class="float-logo-right float-anim-fx" src="assets/img/logo2.png" aria-hidden="true" />
       <div class="delivery-callout">
         <span class="delivery-label">Telefone do Delivery</span>
         <a class="delivery-phone" href="tel:+5566981233010">(66) 98123-3010</a>
-      </div>
-    </div>
-  </header>
-
-  <nav class="menu-nav reveal" id="menu-nav"></nav>
-
-  <main id="menu-root"></main>
-
-  <section class="slogan reveal" aria-label="Mensagem da casa">
-    <div class="slogan-card">
-      <div class="slogan-orbit"></div>
-      <div class="slogan-orbit orbit-two"></div>
-      <h2>O melhor hambúrguer da cidade</h2>
-      <ul class="slogan-list">
-        <li><span class="slogan-icon">•</span>Ingredientes selecionados</li>
-        <li><span class="slogan-icon">•</span>Sabor inconfundível</li>
-      </ul>
-      <div class="slogan-cta">
-        <span>SABOR & QUALIDADE</span>
-      </div>
-    </div>
-  </section>
-
-  <footer class="reveal">
-    <p class="build-version">Versao: <span id="build-version">v0</span></p>
-  </footer>
-
-  <script src="menu-data.js"></script>
-  <script src="script.js"></script>
-  <script src="version.js" data-base=""></script>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-

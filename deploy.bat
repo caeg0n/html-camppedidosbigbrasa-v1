@@ -39,12 +39,12 @@ if not exist "index.html" (
   echo [ERRO] index.html nao encontrado em "%SCRIPT_DIR%".
   exit /b 1
 )
-if not exist "styles.css" (
-  echo [ERRO] styles.css nao encontrado em "%SCRIPT_DIR%".
+if not exist "css\styles.css" (
+  echo [ERRO] css\styles.css nao encontrado em "%SCRIPT_DIR%".
   exit /b 1
 )
-if not exist "script.js" (
-  echo [ERRO] script.js nao encontrado em "%SCRIPT_DIR%".
+if not exist "js\script.js" (
+  echo [ERRO] js\script.js nao encontrado em "%SCRIPT_DIR%".
   exit /b 1
 )
 

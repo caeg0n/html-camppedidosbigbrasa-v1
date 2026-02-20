@@ -20,7 +20,7 @@ const defaultSettings = {
 
 async function loadFromSite() {
   try {
-    const res = await fetch("../menu-data.js", { cache: "no-store" });
+    const res = await fetch("../js/menu-data.js", { cache: "no-store" });
     if (!res.ok) throw new Error("Falha ao carregar menu-data.js");
     const text = await res.text();
     editor.value = text;
