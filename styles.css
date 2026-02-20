@@ -35,7 +35,7 @@ body {
 /* Scrollbar theme */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--brand) #010205;
+  scrollbar-color: var(--logo-red) #010205;
 }
 
 *::-webkit-scrollbar {
@@ -48,7 +48,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: var(--brand);
+  background: var(--logo-red);
   border-radius: 999px;
   border: 2px solid #010205;
 }

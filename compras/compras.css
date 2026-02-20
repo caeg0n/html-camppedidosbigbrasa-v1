@@ -1,11 +1,11 @@
 :root {
-  --cart: var(--brand);
+  --cart: var(--logo-red);
 }
 
 /* Scrollbar theme */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--brand) #0b0b0b;
+  scrollbar-color: var(--logo-red) #0b0b0b;
 }
 
 *::-webkit-scrollbar {
@@ -18,7 +18,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background: var(--brand);
+  background: var(--logo-red);
   border-radius: 999px;
   border: 2px solid #0b0b0b;
 }
@@ -66,9 +66,9 @@
   width: 40px;
   height: 40px;
   border-radius: 999px;
-  border: 1px solid #3b3320;
-  background: radial-gradient(circle at 35% 25%, #ffd46a 0%, var(--brand) 45%, #c98900 100%);
-  color: #1b1405;
+  border: 1px solid #5b2b23;
+  background: radial-gradient(circle at 35% 25%, #da8b71 0%, var(--cart) 45%, #7f3021 100%);
+  color: #ffece5;
   display: grid;
   place-items: center;
   cursor: pointer;
@@ -92,6 +92,7 @@
 
 .cart-icon {
   transform: translateY(1px);
+  color: #ff6b43;
 }
 
 .cart-badge {
